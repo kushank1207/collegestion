@@ -20,6 +20,6 @@ The outcome expected would be a viable interface storing the data as well as ref
 | Members      | Github ID |
 | ----------- | ----------- |
 | Kushank Singh      | kushank1207       |
-| Ishaan Bangroo   | louispaul2000        |
+| Ishan Bangroo   | louispaul2000        |
 | Kumar Vinayak   | mevinayak        |
 | Gurazeez Singh Sachdeva  | gurazeez       |
