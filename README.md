@@ -18,9 +18,9 @@ The outcome expected would be a viable interface storing the data as well as ref
 * TailwindUI
 
 # Team Members
-| Members      | Github ID |
+| Members     | Github ID |
 | ----------- | ----------- |
-| Kushank Singh      | kushank1207       |
-| Ishan Bangroo   | louispaul2000        |
-| Kumar Vinayak   | mevinayak        |
-| Gurazeez Singh Sachdeva  | gurazeez       |
+| Kushank Singh | kushank1207 |
+| Ishan Bangroo | louispaul2000 |
+| Kumar Vinayak | mevinayak |
+| Gurazeez Singh Sachdeva  | gurazeez |
