@@ -23,3 +23,4 @@ The outcome expected would be a viable interface storing the data as well as ref
 | Kushank Singh | kushank1207 |
 | Ishan Bangroo | louispaul2000 |
 | Kumar Vinayak | mevinayak |
+| Gurazeez Sachdeva | gurazeez07 |
