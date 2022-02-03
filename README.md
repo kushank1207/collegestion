@@ -12,7 +12,7 @@ The outcome expected would be a viable interface storing the data as well as ref
 
 
 # Technology Used
-* Angular
+* ReactJS
 * Golang
 * PostgreSQL
 * TailwindUI
