@@ -58,7 +58,7 @@ MONGODB_URL=""
 
 # References
 
-For more detailed explanation
+For more detailed explanatio:-
 
 * [React](https://reactjs.org/)
 * [Golang](https://go.dev/doc/)
