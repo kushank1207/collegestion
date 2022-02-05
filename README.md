@@ -1,6 +1,6 @@
 # Collegestion
 
-(An effective managing system) 
+An effective managing system.
 
 ### Problem Defintion
 
