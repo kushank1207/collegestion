@@ -41,6 +41,8 @@ MONGODB_URL=""
 * MongoDB
 * TailwindUI
 
+# User Story Mapping
+![20220204_225127](https://user-images.githubusercontent.com/43453205/152628375-e2d91300-0590-42d4-b191-273c69e23655.jpg)
 
 
 # Team Members
