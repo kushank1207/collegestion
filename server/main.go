@@ -2,13 +2,13 @@ package main
 
 import (
 	"os"
+	"server/routes"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
 
 func main() {
-
 	port := os.Getenv("PORT")
 
 	if port == "" {
@@ -20,19 +20,17 @@ func main() {
 
 	router.Use(cors.Default())
 
-	// these are the endpoints
-	// //C
-	// router.POST("/order/create", routes.AddOrder)
-	// //R
-	// router.GET("/waiter/:waiter", routes.GetOrdersByWaiter)
-	// router.GET("/orders", routes.GetOrders)
-	// router.GET("/order/:id/", routes.GetOrderById)
-	// //U
-	// router.PUT("/waiter/update/:id", routes.UpdateWaiter)
-	// router.PUT("/order/update/:id", routes.UpdateOrder)
-	//D
-	// router.DELETE("/order/delete/:id", routes.DeleteOrder)
+	router.POST("/customer/create", routes.AddCustomer)
+	router.POST("/product/create", routes.AddProduct)
 
-	//this runs the server and allows it to listen to requests.
+	router.DELETE("/customer/delete/:id", routes.DeleteCustomer)
+	router.DELETE("/product/delete/:id", routes.DeleteProduct)
+
+	router.PUT("/customer/update/:id", routes.UpdateCustomer)
+	router.PUT("/product/update/:id", routes.UpdateProduct)
+
+	router.GET("/customers", routes.GetCustomers)
+	router.GET("/products", routes.GetProducts)
+
 	router.Run(":" + port)
 }
