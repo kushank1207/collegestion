@@ -14,7 +14,7 @@ The outcome expected would be a viable interface storing the data as well as ref
 
 # Installation
 
-bash
+```
 //Project clone
 git clone https://github.com/kushank1207/collegestion.git
 
@@ -32,7 +32,7 @@ go run main.go
 
 //set up .env file in server folder
 MONGODB_URL=""
-
+```
 
 # Technology Used
 
