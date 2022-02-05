@@ -8,6 +8,7 @@ The project particularly gives rises to a self innovated CRM system, the modific
 ### Outcomes:
 The outcome expected would be a viable interface storing the data as well as reflecting it in a dual input to single outcome format. This in-turn will be beneficial in an organisation by enabling smooth working with apt storage techniques, whcih can further be developed in a pliable format by the period of expected completion.
 
+# Installation
 
 
 # Technology Used
