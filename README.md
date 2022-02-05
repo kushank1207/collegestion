@@ -68,5 +68,3 @@ For more detailed explanatio:-
 * [MongoDB](https://docs.mongodb.com/)
 * [Tailwind](https://tailwindui.com/documentation)
 
-# Rest API
-![Project](https://user-images.githubusercontent.com/66404378/152632866-6f21e287-465a-4974-adce-1de23fd2fecb.gif)
