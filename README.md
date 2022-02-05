@@ -33,6 +33,9 @@ go run main.go
 //set up .env file in server folder
 MONGODB_URL=""
 ```
+# Rest API
+
+*![Project](https://user-images.githubusercontent.com/66404378/152632866-6f21e287-465a-4974-adce-1de23fd2fecb.gif)
 
 # Technology Used
 
@@ -64,3 +67,6 @@ For more detailed explanatio:-
 * [Golang](https://go.dev/doc/)
 * [MongoDB](https://docs.mongodb.com/)
 * [Tailwind](https://tailwindui.com/documentation)
+
+# Rest API
+![Project](https://user-images.githubusercontent.com/66404378/152632866-6f21e287-465a-4974-adce-1de23fd2fecb.gif)
