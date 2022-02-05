@@ -14,7 +14,7 @@ The outcome expected would be a viable interface storing the data as well as ref
 # Technology Used
 * ReactJS
 * Golang
-* PostgreSQL
+* MongoDB
 * TailwindUI
 
 # Team Members
