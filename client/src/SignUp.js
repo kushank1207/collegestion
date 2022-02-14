@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Layout from '../core/Layout';
 import { signup } from '../auth';
+//insert auth library and debug issues
+
 
 const Signup = () => {
     const [values, setValues] = useState({
@@ -37,7 +39,7 @@ const Signup = () => {
             }
         });
     };
-
+//insert ui from tailwind and integrate with the rest of UI
     const signUpForm = () => (
         <form>
             <div className="form-group">
@@ -86,3 +88,4 @@ const Signup = () => {
 };
 
 export default Signup;
+//not exporting, tbs
