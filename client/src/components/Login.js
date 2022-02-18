@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { useForm } from 'react-hook-form';
 import firebase from '../utils/firebase'
-import { getAuth } from "firebase/auth";
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
 
 
@@ -13,7 +13,9 @@ export default function Login() {
     handleSubmit,
     formState: { errors },
   } = useForm()
+
   const auth = getAuth();
+
   const [email, setEmail] = useState("");
   const [password, setPass] = useState("");
 
@@ -46,7 +48,7 @@ export default function Login() {
 
         <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
           <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
-            <form className="space-y-6" action="#" method="POST">
+            <form className="space-y-6">
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                   Email address
@@ -118,17 +120,19 @@ export default function Login() {
                   type="submit"
                   className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                   disabled={email === "" || password === ""}
-                  onClick={async (e) => {
+                  onClick={async (e) =>{
                     e.preventDefault();
-                    try {
-                      const res = await firebase.auth().signInWithEmailAndPassword(email, password)
-                      console.log('res: ', res)
-                    } catch (e) {
-                      // error handling
-                      console.error(e)
-                    }
-                    
-                  }} 
+                    await signInWithEmailAndPassword(auth, email, password).then(async function (firebaseUser) {
+                      if(firebaseUser) {
+                        console.log(firebaseUser)
+                        await localStorage.setItem("User", firebaseUser.user.email)
+                        const id = await localStorage.getItem("empID")
+                        window.location.href = '/home';
+                      } else {
+                        window.location.href = '/';
+                      }
+                  })}
+                  } 
                 >
                   Sign in
                 </button>
