@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { useForm } from 'react-hook-form';
 import firebase from '../utils/firebase'
@@ -24,7 +23,6 @@ export default function Login() {
     <>
       {/*
         This example requires updating your template:
-
         ```
         <html class="h-full bg-gray-50">
         <body class="h-full">
@@ -165,7 +163,6 @@ export default function Login() {
                     </svg>
                   </a>
                 </div>
-
                 <div>
                   <a
                     href="#"
