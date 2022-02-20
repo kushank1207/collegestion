@@ -13,18 +13,21 @@ import {
 
 const navigation = [
   { name: 'Dashboard', href: '#', icon: HomeIcon, current: true },
-  { name: 'Calendar', href: '#', icon: CalendarIcon, current: false },
-  { name: 'Teams', href: '#', icon: UserGroupIcon, current: false },
-  { name: 'Directory', href: '#', icon: SearchCircleIcon, current: false },
-  { name: 'Announcements', href: '#', icon: SpeakerphoneIcon, current: false },
-  { name: 'Office Map', href: '#', icon: MapIcon, current: false },
+  { name: 'User Management', href: '#', icon: CalendarIcon, current: false },
+  { name: 'Brand', href: '#', icon: UserGroupIcon, current: false },
+  { name: 'Store', href: '#', icon: SearchCircleIcon, current: false },
+  { name: 'Product', href: '#', icon: SpeakerphoneIcon, current: false },
+  { name: 'Order', href: '#', icon: MapIcon, current: false },
+  { name: 'Report', href: '#', icon: MapIcon, current: false },
+  { name: 'Company', href: '#', icon: MapIcon, current: false },
+  { name: 'Setting', href: '#', icon: MapIcon, current: false },
 ]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Product() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   return (
