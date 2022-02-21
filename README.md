@@ -41,6 +41,7 @@ MONGODB_URL=""
 # Rest API
 ![Project](https://user-images.githubusercontent.com/66404378/153310836-89ec67fe-f294-4038-8784-85d6bfd2b272.gif)
 
+
 # Technology Used
 
 * ReactJS
@@ -51,6 +52,8 @@ MONGODB_URL=""
 # User Story Mapping
 ![20220204_225127](https://user-images.githubusercontent.com/43453205/152628375-e2d91300-0590-42d4-b191-273c69e23655.jpg)
 
+
+The above mapping would be updated with progressive stages onward and thereby will be updated consecutively.
 
 # Team Members
 
