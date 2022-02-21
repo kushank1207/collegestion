@@ -17,5 +17,25 @@ Documentation For API
 * TailwindUI
 * PHP
 
+# Continued Team Members
+
+| Members                 | Github ID     |
+| ----------------------- | ------------- |
+| Kushank Singh           | kushank1207   |
+| Ishan(a.k.a Louis Paul) | louispaul2000 |
+| Kumar Vinayak           | mevinayak     |
+| Gurazeez Singh Sachdeva | gurazeez07    |
+
+
+
+# References
+
+For more detailed explanation :-
+
+* [React](https://reactjs.org/)
+* [Golang](https://go.dev/doc/)
+* [MongoDB](https://docs.mongodb.com/)
+* [Tailwind](https://tailwindui.com/documentation)
+* [Php](https://php.org/)
 
 
