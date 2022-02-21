@@ -8,6 +8,11 @@ In this modern era it has become quite necessary that the interaction between an
 
 The project particularly gives rises to a self innovated CRM system, the modification giving way to both customers as well as inter-organisational members,which not only works out with the clients but the other way as well. Since this project is a collaborative CRM at roots, we will try it to be operational alongside as well. 
 
+Exactly the roles of our system would include the primary role of managing interactivity between customers (or habitué) and most probably with the persistence of possibility, the secondary will be the inter-organizational employees giving it contrast from the conventional systems.
+
+Our tool will be able to provide its usability and try to increase the productivity of multifarious parts such as development(business), marketing, customer services, etc. aid in tsk tracking, raising sales opportunities, and personalizing communication.
+
+
 ### Outcomes:
 
 The outcome expected would be a viable interface storing the data as well as reflecting it in a dual input to single outcome format. This in-turn will be beneficial in an organisation by enabling smooth working with apt storage techniques, whcih can further be developed in a pliable format by the period of expected completion.
@@ -52,7 +57,7 @@ MONGODB_URL=""
 | Members                 | Github ID     |
 | ----------------------- | ------------- |
 | Kushank Singh           | kushank1207   |
-| Ishan Bangroo           | louispaul2000 |
+| Ishan(a.k.a Louis Paul) | louispaul2000 |
 | Kumar Vinayak           | mevinayak     |
 | Gurazeez Singh Sachdeva | gurazeez07    |
 
