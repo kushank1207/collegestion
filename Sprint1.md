@@ -4,8 +4,6 @@
 
 ### Problem Defintion
 
-In this modern era it has become quite necessary that the interaction between an organization and it's substructure including the customers reflect itself in an efficient manner. Thus, with new advanced technologies, it becomes effective to raise up the barriers of distance. Hence to make it more effective, we will be dealing with the space complexity issues apart from getting our conventional eye over the time complexity since there is a tradeoff between them. Therefore in our present corporate project, we will try to balance both equally.
-
 The project particularly gives rises to a self innovated CRM system, the modification giving way to both customers as well as inter-organisational members,which not only works out with the clients but the other way as well. Since this project is a collaborative CRM at roots, we will try it to be operational alongside as well. 
 
 Exactly the roles of our system would include the primary role of managing interactivity between customers (or habitué) and most probably with the persistence of possibility, the secondary will be the inter-organizational employees giving it contrast from the conventional systems.
