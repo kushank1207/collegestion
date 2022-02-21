@@ -13,9 +13,8 @@ Exactly the roles of our system would include the primary role of managing inter
 Our tool will be able to provide its usability and try to increase the productivity of multifarious parts such as development(business), marketing, customer services, etc. aid in tsk tracking, raising sales opportunities, and personalizing communication.
 
 
-### Outcomes:
-
-The outcome expected would be a viable interface storing the data as well as reflecting it in a dual input to single outcome format. This in-turn will be beneficial in an organisation by enabling smooth working with apt storage techniques, whcih can further be developed in a pliable format by the period of expected completion.
+### Accomplishments:
+With the end of stage 1(out of the 4 stages), we have successfully initiated the creation of user stories, programming for the creation of a workable demo system was also finalized, thereby as observed user mapping charts and readme was updated alongside!
 
 # Installation
 
