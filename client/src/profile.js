@@ -1,4 +1,4 @@
-rimport React from 'react';
+import React from 'react';
 import '../../assets/css/tabs-css/profile.scss';
 class Profile extends React.Component {
   render() {
