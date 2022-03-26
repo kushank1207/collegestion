@@ -38,4 +38,8 @@ For more detailed explanation :-
 * [Tailwind](https://tailwindui.com/documentation)
 * [Php](https://php.org/)
 
+Code to be updated and modified
 
+Task roles to be updated and modified
+
+front end part to be disintegrated into several structures.
