@@ -10,7 +10,7 @@
 *Project initiated & developed for Grad course CEN5035 - Software Engineering*
 
 
-### Problem Defintion
+### 🚀Problem Defintion
 --------
 Collegestion particularly gives rises to a self innovated CRM system, the modification giving way to both customers as well as inter-organisational members,which not only works out with the clients but the other way as well. Since this project is a collaborative CRM at roots, we will try it to be operational alongside as well. 
 
@@ -21,7 +21,7 @@ Exactly the roles of our system would include the primary role of managing inter
 Our tool will be able to provide its usability and try to increase the productivity of multifarious parts such as development(business), marketing, customer services, etc. aid in tsk tracking, raising sales opportunities, and personalizing communication.
 
 
-### Outcomes:
+### 🚀Outcomes:
 --------
 The outcome expected would be a viable interface storing the data as well as reflecting it in a dual input to single outcome format. This in-turn will be beneficial in an organisation by enabling smooth working with apt storage techniques, whcih can further be developed in a pliable format by the period of expected completion.
 
@@ -46,24 +46,24 @@ go run main.go
 //set up .env file in server folder
 MONGODB_URL=""
 ```
-# Rest API
+# 🚀Rest API
 ![Project](https://user-images.githubusercontent.com/66404378/153310836-89ec67fe-f294-4038-8784-85d6bfd2b272.gif)
 
 
-# Technology Used
+# 🚀Technology Used
 
 * ReactJS
 * Golang
 * MongoDB
 * TailwindUI
 
-# User Story Mapping
+# 🚀User Story Mapping
 ![20220204_225127](https://user-images.githubusercontent.com/43453205/152628375-e2d91300-0590-42d4-b191-273c69e23655.jpg)
 
 
 The above mapping would be updated with progressive stages onward and thereby will be updated consecutively.
 
-# Team Members
+# 🚀Team Members
 
 | Members                 | Github ID     |
 | ----------------------- | ------------- |
@@ -74,7 +74,7 @@ The above mapping would be updated with progressive stages onward and thereby wi
 
 
 
-# References
+# 🚀References
 --------
 For more detailed explanation :-
 
