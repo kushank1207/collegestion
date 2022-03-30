@@ -1,30 +1,32 @@
-## Tasks to update
-BackEnd front end test to be performed
+# Accomplishments:
+--------
+--------
 
-# Cypress.io
-* Unit test
-
-Graphical additions
-
-Documentation For API
-
-# Technology Used
-(To be updated)
-
-* ReactJS
-* Golang
-* MongoDB
-* TailwindUI
-* PHP
-
-# Continued Team Members
+### Continued Team Members
 
 | Members                 | Github ID     |
 | ----------------------- | ------------- |
 | Kushank Singh           | kushank1207   |
-| Ishan(a.k.a Louis Paul) | louispaul2000 |
+| Louis Paul(ISHAN)       | louispaul2000 |
 | Kumar Vinayak           | mevinayak     |
 | Gurazeez Singh Sachdeva | gurazeez07    |
+
+### A) Integration of front and backend
+
+ - Backend API created and combined with frontend and each component is to be linked alongside
+ 
+### B) Cypress and Unit testing
+
+ - Cypress testing has been initiated and successfully completed!
+
+### C) Unit testing backend
+
+ - For tesing individual parts unit tests have been performed 
+ 
+### D) Documentation for Backend APIs developed
+ 
+  - Documentation for Backend APIs have been initiated and has to be modified as the code will be proceeding towards the final stage.
+
 
 
 
@@ -38,8 +40,10 @@ For more detailed explanation :-
 * [Tailwind](https://tailwindui.com/documentation)
 * [Php](https://php.org/)
 
-Code to be updated and modified
+###TASKS TO BE UPDATED
+- Code to be updated and modified
+- Task roles to be updated and modified along with disintegration and allotment of individual task
+- Front end part to be disintegrated into several structures
 
-Task roles to be updated and modified
 
-front end part to be disintegrated into several structures.
+
