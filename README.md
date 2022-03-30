@@ -2,6 +2,17 @@
 
 ( An effective managing system )
 
+[![collegestion](https://github.com/kushank1207/collegestion/actions/workflows/main.yml/badge.svg)](https://github.com/kushank1207/collegestion/actions/workflows/main.yml)
+
+## Description
+---
+GatorExchange is an application that serves as a platform for users to ask and answer questions, through membership and active participation, to vote questions and answers up or down similar to Reddit and edit questions and answers in a fashion similar to a wiki. 
+The Frontend for this application is developed using ReactJS framework and the Backend is developed using Go. 
+
+---
+
+https://github.com/kushank1207/collegestion/actions/new
+
 ### Problem Defintion
 
 In this modern era it has become quite necessary that the interaction between an organization and it's substructure including the customers reflect itself in an efficient manner. Thus, with new advanced technologies, it becomes effective to raise up the barriers of distance. Hence to make it more effective, we will be dealing with the space complexity issues apart from getting our conventional eye over the time complexity since there is a tradeoff between them. Therefore in our present corporate project, we will try to balance both equally.
