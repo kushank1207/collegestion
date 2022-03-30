@@ -1,5 +1,6 @@
 ### Accomplishments:
-
+--------
+--------
 A) User stories
 User stories appended successfully as Issues
 
