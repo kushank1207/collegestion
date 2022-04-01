@@ -23,7 +23,7 @@
 
 ## Contributors 
 
-	 - Kushank Singh - Backend
+	 - Kushank Singh - Backend/frontend
 	 - Kumar Vinayak - Backend
 	 - Gurazeez Singh Sachdeva - FrontEnd
 	 - Louis Paul(ISHAN) - FrontEnd
