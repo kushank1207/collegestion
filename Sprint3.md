@@ -23,10 +23,10 @@
 
 ## Contributors 
 
-	 - Kushank Singh - Backend/frontend
-	 - Kumar Vinayak - Backend
-	 - Gurazeez Singh Sachdeva - FrontEnd
-	 - Louis Paul(ISHAN) - FrontEnd
+	 - Kushank Singh - Backend
+	 - Kumar Vinayak - Frontend
+	 - Gurazeez Singh Sachdeva - Frontend
+	 - Louis Paul(ISHAN) - Frontend
 
 Although the task has been distributed in above manner for most of the parts but again every team member is working in a mixed state linked with both ends.
 
