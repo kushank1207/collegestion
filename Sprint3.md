@@ -20,6 +20,12 @@
 ### D) Documentation for Backend APIs developed
  
   - Documentation for Backend APIs have been initiated and has to be modified as the code will be proceeding towards the final stage.
+  
+
+Video walkthrough of demo of the Project
+
+https://user-images.githubusercontent.com/43453205/161336188-ed1fa732-c95d-445f-a22d-9482f16d2581.mp4
+
 
 ## Contributors 
 
@@ -36,6 +42,7 @@ New functionalities implemented will be the traversal through different parts of
 - Code to be updated and modified with inculsion of other parts of the tabs to be working successfuly and static nature to be modified to dynamic nature in the end.
  
 - Front end part to be disintegrated into several structures.
+
 
 
 
