@@ -1,11 +1,4 @@
 import './App.css';
-<<<<<<< Updated upstream
-import Login from './components/Login.js'
-
-function App() {
-  return (
-    <Login />
-=======
 import ReactDOM from "react-dom";
 import Product from './components/Product.js'
 import Dashboard from './components/Dashboard.js'
@@ -25,7 +18,6 @@ function App() {
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter> 
->>>>>>> Stashed changes
   );
 }
 
