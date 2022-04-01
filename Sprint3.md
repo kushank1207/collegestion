@@ -30,6 +30,7 @@
 
 Although the task has been distributed in above manner for most of the parts but again every team member is working in a mixed state linked with both ends.
 
+New functionalities implemented will be the traversal through different parts of our system and capturing along with storing of data alongside which we will be also moving towards giving our outputs a dynamic look!
 
 ###TASKS TO BE UPDATED
 - Code to be updated and modified with inculsion of other parts of the tabs to be working successfuly and static nature to be modified to dynamic nature in the end.
