@@ -1,1 +1,43 @@
-Creativity and modification of existing parts in progress.
+# Accomplishments:
+--------
+--------
+
+
+
+
+### A) Integration of front and backend
+
+ - Backend API created and combined with frontend and each component is to be linked alongside
+ 
+### B) Cypress and Unit testing
+
+ - Cypress testing has been initiated and successfully completed!
+
+### C) Unit testing backend
+
+ - For tesing individual parts unit tests have been performed 
+ 
+### D) Documentation for Backend APIs developed
+ 
+  - Documentation for Backend APIs have been initiated and has to be modified as the code will be proceeding towards the final stage.
+
+## Contributors 
+
+	 - Kushank Singh - Backend
+	 - Kumar Vinayak - Backend
+	 - Gurazeez Singh Sachdeva - FrontEnd
+	 - Louis Paul(ISHAN) - FrontEnd
+
+Although the task has been distributed in above manner for most of the parts but again every team member is working in a mixed state linked with both ends.
+
+
+###TASKS TO BE UPDATED
+- Code to be updated and modified with inculsion of other parts of the tabs to be working successfuly and static nature to be modified to dynamic nature in the end.
+ 
+- Front end part to be disintegrated into several structures.
+
+
+
+
+
+
