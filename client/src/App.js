@@ -1,5 +1,4 @@
 import './App.css';
-import ReactDOM from "react-dom";
 import Product from './components/Product.js'
 import Dashboard from './components/Dashboard.js'
 import Login from './components/Login.js'
