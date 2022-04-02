@@ -39,9 +39,9 @@ Although the task has been distributed in above manner for most of the parts but
 New functionalities implemented will be the traversal through different parts of our system and capturing along with storing of data alongside which we will be also moving towards giving our outputs a dynamic look!
 
 ###TASKS TO BE UPDATED
-- Code to be updated and modified with inculsion of other parts of the tabs to be working successfuly and static nature to be modified to dynamic nature in the end.
+- Code is to be updated. It is to be modified with inculsion of other parts to allow the tabs to be working successfuly. Static nature will modified to dynamic nature in the end.
  
-- Front end part to be disintegrated into several structures.
+- Front end part is to be disintegrated into several structures.
 
 
 
