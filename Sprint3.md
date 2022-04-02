@@ -22,7 +22,7 @@
   - Documentation for Backend APIs have been initiated and has to be modified as the code will be proceeding towards the final stage.
   
 
-### Video walkthrough of demo of the Project created by the whole team:
+### Video walkthrough of demo of the Project:
 
 https://user-images.githubusercontent.com/43453205/161336188-ed1fa732-c95d-445f-a22d-9482f16d2581.mp4
 
