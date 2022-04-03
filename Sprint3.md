@@ -29,10 +29,10 @@ https://user-images.githubusercontent.com/43453205/161336188-ed1fa732-c95d-445f-
 
 ## Contributors 
 
-	 - Kushank Singh - Backend(contributed to front end around instances)
-	 - Kumar Vinayak - Backend(contributed to front end as well around instances)
-	 - Gurazeez Singh Sachdeva - Frontend(contributed to back end around instances)
-	 - Louis Paul(ISHAN) - Frontend(contributed to back end around cerain instances)
+	 - Kushank Singh - Backend(aided in front end around instances)
+	 - Kumar Vinayak - Backend(aided in front end as well around instances)
+	 - Gurazeez Singh Sachdeva - Frontend(aided towards back end around instances)
+	 - Louis Paul(ISHAN) - Frontend(aided towards back end around cerain instances)
 
 Although the task has been distributed in above manner for most of the parts but again every team member is working in a mixed state linked with both ends.
 
