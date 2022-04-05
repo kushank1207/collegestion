@@ -15,15 +15,15 @@ import {
 } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'Dashboard', href: '#', icon: HomeIcon, current: false },
-  { name: 'User Management', href: '#', icon: UsersIcon, current: false },
-  { name: 'Brand', href: '#', icon: FolderIcon, current: false },
-  { name: 'Store', href: '#', icon: CalendarIcon, current: false },
+  { name: 'Dashboard', href: '/dashboard', icon: HomeIcon, current: false },
+  { name: 'User Management', href: '/user', icon: UsersIcon, current: false },
+  { name: 'Brand', href: '/brand', icon: FolderIcon, current: false },
+  { name: 'Store', href: '/store', icon: CalendarIcon, current: false },
   { name: 'Product', href: '/product', icon: InboxIcon, current: true },
-  { name: 'Order', href: '#', icon: ChartBarIcon, current: false },
-  { name: 'Report', href: '#', icon: HomeIcon, current: false },
-  { name: 'Company', href: '#', icon: UsersIcon, current: false },
-  { name: 'Setting', href: '#', icon: FolderIcon, current: false },
+  { name: 'Order', href: '/order', icon: ChartBarIcon, current: false },
+  { name: 'Report', href: '/report', icon: HomeIcon, current: false },
+  { name: 'Company', href: '/company', icon: UsersIcon, current: false },
+  { name: 'Settings', href: '/setting', icon: FolderIcon, current: false },
 ]
 
 function classNames(...classes) {
