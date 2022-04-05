@@ -12,15 +12,15 @@ import {
 } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'Dashboard', href: '#', icon: HomeIcon, current: true },
-  { name: 'User Management', href: '#', icon: CalendarIcon, current: false },
-  { name: 'Brand', href: '#', icon: UserGroupIcon, current: false },
-  { name: 'Store', href: '#', icon: SearchCircleIcon, current: false },
-  { name: 'Product', href: '#', icon: SpeakerphoneIcon, current: false },
-  { name: 'Order', href: '#', icon: MapIcon, current: false },
-  { name: 'Report', href: '#', icon: MapIcon, current: false },
-  { name: 'Company', href: '#', icon: MapIcon, current: false },
-  { name: 'Setting', href: '#', icon: MapIcon, current: false },
+  { name: 'Dashboard', href: '/dashboard', icon: HomeIcon, current: true },
+  { name: 'User Management', href: '/user', icon: UsersIcon, current: false },
+  { name: 'Brand', href: '/brand', icon: FolderIcon, current: false },
+  { name: 'Store', href: '/store', icon: CalendarIcon, current: false },
+  { name: 'Product', href: '/product', icon: InboxIcon, current: false },
+  { name: 'Order', href: '/order', icon: ChartBarIcon, current: false },
+  { name: 'Report', href: '/report', icon: HomeIcon, current: false },
+  { name: 'Company', href: '/company', icon: UsersIcon, current: false },
+  { name: 'Setting', href: '/setting', icon: FolderIcon, current: false },
 ]
 
 function classNames(...classes) {
@@ -119,11 +119,18 @@ export default function Product() {
                   </nav>
                 </div>
                 <div className="flex-shrink-0 flex border-t border-gray-200 p-4">
-                  <a href="#" className="flex-shrink-0 group block">
+                <button onClick={async (e) =>{
+                    e.preventDefault();
+                    // const auth = getAuth();
+                    await signOut(auth).then(() => {
+                      // console.log(User)
+                      localStorage.removeItem("User")
+                      window.location.replace("/");
+                  })}} className="flex-shrink-0 group block">
                     <div className="flex items-center">
                       <p>Log Out</p>
                     </div>
-                  </a>
+              </button>
                 </div>
               </div>
             </Transition.Child>
@@ -173,11 +180,18 @@ export default function Product() {
                 </nav>
               </div>
               <div className="flex-shrink-0 flex border-t border-gray-200 p-4">
-               <a href="#" className="flex-shrink-0 group block">
+              <button onClick={async (e) =>{
+                    e.preventDefault();
+                    // const auth = getAuth();
+                    await signOut(auth).then(() => {
+                      // console.log(User)
+                      localStorage.removeItem("User")
+                      window.location.replace("/");
+                  })}} className="flex-shrink-0 group block">
                     <div className="flex items-center">
                       <p>Log Out</p>
                     </div>
-                  </a>
+              </button>
               </div>
             </div>
           </div>
