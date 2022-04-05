@@ -1,6 +1,7 @@
 import '../css/dashboard.css'
 import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
+import { getAuth, signOut } from "firebase/auth";
 import {
   CalendarIcon,
   ChartBarIcon,
@@ -29,18 +30,11 @@ function classNames(...classes) {
 }
 
 export default function Example() {
+  const auth = getAuth();
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   return (
     <>
-      {/*
-        This example requires updating your template:
-
-        ```
-        <html class="h-full bg-gray-100">
-        <body class="h-full">
-        ```
-      */}
       <div>
         <Transition.Root show={sidebarOpen} as={Fragment}>
           <Dialog as="div" className="fixed inset-0 flex z-40 md:hidden" onClose={setSidebarOpen}>
@@ -118,21 +112,18 @@ export default function Example() {
                   </nav>
                 </div>
                 <div className="flex-shrink-0 flex border-t border-gray-200 p-4">
-                  <a href="#" className="flex-shrink-0 group block">
+                  <button onClick={async (e) =>{
+                    e.preventDefault();
+                    // const auth = getAuth();
+                    await signOut(auth).then(() => {
+                      // console.log(User)
+                      localStorage.removeItem("User")
+                      window.location.replace("/");
+                  })}} className="flex-shrink-0 group block">
                     <div className="flex items-center">
-                      <div>
-                        <img
-                          className="inline-block h-10 w-10 rounded-full"
-                          src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                          alt=""
-                        />
-                      </div>
-                      <div className="ml-3">
-                        <p className="text-base font-medium text-gray-700 group-hover:text-gray-900">Tom Cook</p>
-                        <p className="text-sm font-medium text-gray-500 group-hover:text-gray-700">View profile</p>
-                      </div>
+                      <p>Log Out</p>
                     </div>
-                  </a>
+                  </button>
                 </div>
               </div>
             </Transition.Child>
@@ -175,21 +166,18 @@ export default function Example() {
               </nav>
             </div>
             <div className="flex-shrink-0 flex border-t border-gray-200 p-4">
-              <a href="#" className="flex-shrink-0 w-full group block">
-                <div className="flex items-center">
-                  <div>
-                    <img
-                      className="inline-block h-9 w-9 rounded-full"
-                      src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                      alt=""
-                    />
-                  </div>
-                  <div className="ml-3">
-                    <p className="text-sm font-medium text-gray-700 group-hover:text-gray-900">Tom Cook</p>
-                    <p className="text-xs font-medium text-gray-500 group-hover:text-gray-700">View profile</p>
-                  </div>
-                </div>
-              </a>
+              <button onClick={async (e) =>{
+                    e.preventDefault();
+                    // const auth = getAuth();
+                    await signOut(auth).then(() => {
+                      // console.log(User)
+                      localStorage.removeItem("User")
+                      window.location.replace("/");
+                  })}} className="flex-shrink-0 group block">
+                    <div className="flex items-center">
+                      <p>Log Out</p>
+                    </div>
+              </button>
             </div>
           </div>
         </div>
@@ -210,12 +198,11 @@ export default function Example() {
                 <h1 className="text-2xl font-semibold text-gray-900">Dashboard</h1>
               </div>
               <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
-
                 <div className="py-4">
 
         <div className="">
         <div className="dash-main card">
-        <table class="table ">
+        <table className="table ">
           <thead>
             <tr>
               <th scope="col" />
@@ -227,7 +214,7 @@ export default function Example() {
           <tbody>
             <tr>
               <td>
-                <div class="dashDiv card green">
+                <div className="dashDiv card green">
                   <p>
                     <h7 className="colorwhite card-header">Total Products</h7>
                   </p>
@@ -235,12 +222,12 @@ export default function Example() {
                     <h2 className="colorwhite">2</h2>
                   </p>
                   <p>
-                    <i class="fas fa-chart-bar colorwhite iconsize" />
+                    <i className="fas fa-chart-bar colorwhite iconsize" />
                   </p>
                 </div>
               </td>
               <td>
-                <div class="dashDiv card blue">
+                <div className="dashDiv card blue">
                   <p>
                     <h7 className="colorwhite card-header">Total Users</h7>
                   </p>
@@ -248,12 +235,12 @@ export default function Example() {
                     <h2 className="colorwhite">2</h2>
                   </p>
                   <p>
-                    <i class="fas fa-chart-bar colorwhite iconsize" />
+                    <i className="fas fa-chart-bar colorwhite iconsize" />
                   </p>
                 </div>
               </td>
               <td>
-                <div class="dashDiv card yellow">
+                <div className="dashDiv card yellow">
                   <p>
                     <h7 className="colorwhite card-header">Total Groups</h7>
                   </p>
@@ -261,12 +248,12 @@ export default function Example() {
                     <h2 className="colorwhite">2</h2>
                   </p>
                   <p>
-                    <i class="fas fa-chart-bar colorwhite iconsize" />
+                    <i className="fas fa-chart-bar colorwhite iconsize" />
                   </p>
                 </div>
               </td>
               <td>
-                <div class="dashDiv card orange">
+                <div className="dashDiv card orange">
                   <p>
                     <h7 className="colorwhite card-header">Total Brands</h7>
                   </p>
@@ -274,14 +261,14 @@ export default function Example() {
                     <h2 className="colorwhite">2</h2>
                   </p>
                   <p>
-                    <i class="fas fa-chart-bar colorwhite iconsize" />
+                    <i className="fas fa-chart-bar colorwhite iconsize" />
                   </p>
                 </div>
               </td>
             </tr>
             <tr>
               <td>
-                <div class="dashDiv card green">
+                <div className="dashDiv card green">
                   <p>
                     <h7 className="colorwhite card-header">Total Categories</h7>
                   </p>
@@ -289,12 +276,12 @@ export default function Example() {
                     <h2 className="colorwhite">2</h2>
                   </p>
                   <p>
-                    <i class="fas fa-chart-bar colorwhite iconsize" />
+                    <i className="fas fa-chart-bar colorwhite iconsize" />
                   </p>
                 </div>
               </td>
               <td>
-                <div class="dashDiv card blue">
+                <div className="dashDiv card blue">
                   <p>
                     <h7 className="colorwhite card-header">Total Stores</h7>
                   </p>
@@ -302,12 +289,12 @@ export default function Example() {
                     <h2 className="colorwhite">2</h2>
                   </p>
                   <p>
-                    <i class="fas fa-chart-bar colorwhite iconsize" />
+                    <i className="fas fa-chart-bar colorwhite iconsize" />
                   </p>
                 </div>
               </td>
               <td>
-                <div class="dashDiv card yellow">
+                <div className="dashDiv card yellow">
                   <p>
                     <h7 className="colorwhite card-header">Total Attributes</h7>
                   </p>
@@ -315,12 +302,12 @@ export default function Example() {
                     <h2 className="colorwhite">2</h2>
                   </p>
                   <p>
-                    <i class="fas fa-chart-bar colorwhite iconsize" />
+                    <i className="fas fa-chart-bar colorwhite iconsize" />
                   </p>
                 </div>
               </td>
               <td>
-                <div class="dashDiv card orange">
+                <div className="dashDiv card orange">
                   <p>
                     <h7 className="colorwhite card-header">Total Orders</h7>
                   </p>
@@ -328,14 +315,14 @@ export default function Example() {
                     <h2 className="colorwhite">2</h2>
                   </p>
                   <p>
-                    <i class="fas fa-chart-bar colorwhite iconsize" />
+                    <i className="fas fa-chart-bar colorwhite iconsize" />
                   </p>
                 </div>
               </td>
             </tr>
             <tr>
               <td>
-                <div class="dashDiv card green">
+                <div className="dashDiv card green">
                   <p>
                     <h7 className="colorwhite card-header">Total Companies</h7>
                   </p>
@@ -343,12 +330,12 @@ export default function Example() {
                     <h2 className="colorwhite">2</h2>
                   </p>
                   <p>
-                    <i class="fas fa-chart-bar colorwhite iconsize" />
+                    <i className="fas fa-chart-bar colorwhite iconsize" />
                   </p>
                 </div>
               </td>
               <td>
-                <div class="dashDiv card blue">
+                <div className="dashDiv card blue">
                   <p>
                     <h7 className="colorwhite card-header">Total Reports</h7>
                   </p>
@@ -356,7 +343,7 @@ export default function Example() {
                     <h2 className="colorwhite">2</h2>
                   </p>
                   <p>
-                    <i class="fas fa-chart-bar colorwhite iconsize" />
+                    <i className="fas fa-chart-bar colorwhite iconsize" />
                   </p>
                 </div>
               </td>

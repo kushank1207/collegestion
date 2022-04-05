@@ -6,11 +6,10 @@ import SignUp from './SignUp.js'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 
-
-
 export default function Login() {
 
   const {
+    handleSubmit,
     formState: { errors },
   } = useForm()
 
@@ -22,7 +21,7 @@ export default function Login() {
 
   
   return (
-    <>
+    <div>
       <div className="min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
           <img
@@ -114,9 +113,9 @@ export default function Login() {
                         console.log(firebaseUser)
                         setSignedUp("True")
                         localStorage.setItem("User", firebaseUser.user.email)
-                        {<Link to={'/Dashboard'} />}
+                        window.location.replace("/dashboard")
                       } else {
-                        setSignedUp("False")
+                        // setSignedUp("False")
                       }
                   })}
                   } 
@@ -126,8 +125,8 @@ export default function Login() {
               </div>
             </form>
 
-            {signedUp === "True" && <Link to='/dashboard'></Link> && setSignedUp("False")}
-
+            {/* {signedUp === "True" && <Link to='/dashboard'></Link> && setSignedUp("False")} */}
+            {/* <Link to={'/Dashboard'} /> */}
             <div className="mt-6">
               <div className="relative">
                 <div className="absolute inset-0 flex items-center">
@@ -156,6 +155,6 @@ export default function Login() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
