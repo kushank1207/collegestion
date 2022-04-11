@@ -135,13 +135,11 @@ func GetCustomers(c *gin.Context) {
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		fmt.Println(err)
-		return
 	}
 
 	if err = cursor.All(ctx, &customer); err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		fmt.Println(err)
-		return
 	}
 
 	defer cancel()
