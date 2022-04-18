@@ -1,5 +1,5 @@
-import * as firebase from 'firebase/app'
-import 'firebase/auth'
+import * as firebase from "firebase/app";
+import "firebase/auth";
 import { initializeApp } from "firebase/app";
 import {
   FIREBASE_APIKEY,
@@ -9,7 +9,7 @@ import {
   FIREBASE_MESSAGINGSENDERID,
   FIREBASE_PROJECTID,
   FIREBASE_STORAGEBUCKET,
-} from '../const'
+} from "../const";
 
 const firebaseConfig = {
   apiKey: FIREBASE_APIKEY,
@@ -19,13 +19,11 @@ const firebaseConfig = {
   messagingSenderId: FIREBASE_MESSAGINGSENDERID,
   appId: FIREBASE_APPID,
   measurementId: FIREBASE_MEASUREMENTID,
-}
+};
 
 const app = initializeApp(firebaseConfig);
-console.log(app.name); 
+console.log(app.name);
 
-console.log("Firebase initialized")
+console.log("Firebase initialized");
 
-
-
-export default firebase
+export default firebase;

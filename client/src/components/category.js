@@ -1,5 +1,5 @@
-import React from 'react';
-import '../../assets/css/tabs-css/category.scss';
+import React from "react";
+// import '../../assets/css/tabs-css/category.scss';
 class Category extends React.Component {
   render() {
     return (
@@ -96,4 +96,3 @@ class Category extends React.Component {
 }
 
 export default Category;
-

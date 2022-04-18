@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/tabs-css/groups.scss';
+// import '../../assets/css/tabs-css/groups.scss';
 class Groups extends React.Component {
   render() {
     return (
