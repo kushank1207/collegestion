@@ -347,6 +347,22 @@ export default function Example() {
                                     <option>Bangladesh</option>
                                     <option>China</option>
                                   </select>
+                               
+                                Year of Manufacture
+                                </label>
+                                <div className="mt-1">
+                                  <select
+                                    id="manufacturingYear"
+                                    name="manufacturingYear"
+                                    value={product.manufacturingYear}
+                                    autoComplete="country-name"
+                                    onChange={handleChange}
+                                    className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
+                                  >
+                                    <option>2021</option>
+                                    <option>2022</option>
+                                   
+                                  </select>
                                 </div>
                               </div>
                             </div>
