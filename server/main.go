@@ -27,6 +27,8 @@ func main() {
 
 	router.GET("/customers", routes.GetCustomers)
 	router.GET("/products", routes.GetProducts)
+	router.GET("/products/chart", routes.GetProductsChart)
+	router.GET("/order/chart", routes.GetOrderChart)
 
 	router.Run(":" + port)
 }
