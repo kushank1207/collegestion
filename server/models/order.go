@@ -8,6 +8,10 @@ type Product struct {
 	Prod_ID primitive.ObjectID `json:"_id,omitempty" bson:"_id,omitempty"`
 	Name    string             `json:"name,omitempty" bson:"name,omitempty"`
 	Price   float64              `json:"price,omitempty" bson:"price,omitempty"`
+	Description       string             `json:"description" bson:"description"`
+	Country           string             `json:"country" bson:"country"`
+	itemcode          string             `json:"itemcode" bson:"itemcode"`
+	manufacturingYear string             `json:"manufacturingYear" bson:"manufacturingYear"`
 }
 
 type Customer struct {
@@ -16,6 +20,9 @@ type Customer struct {
 	Last_name  string             `json:"last_name,omitempty" bson:"last_name,omitempty"`
 	DOB        string             `json:"DOB,omitempty" bson:"dob,omitempty"`
 	Address    string             `json:"address,omitempty" bson:"address,omitempty"`
+	City       string             `json:"city,omitempty" bson:"city,omitempty"`
+	State      string             `json:"state" bson:"state"`
+	Zip        string             `json:"zip" bson:"zip"`
 }
 
 type Order struct {
