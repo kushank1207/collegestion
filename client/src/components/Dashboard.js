@@ -13,7 +13,6 @@ import {
 } from '@heroicons/react/outline'
 
 const navigation = [
-<<<<<<< Updated upstream
   { name: 'Dashboard', href: '#', icon: HomeIcon, current: true },
   { name: 'User Management', href: '#', icon: UsersIcon, current: false },
   { name: 'Brand', href: '#', icon: FolderIcon, current: false },
@@ -24,18 +23,6 @@ const navigation = [
   { name: 'Company', href: '#', icon: UsersIcon, current: false },
   { name: 'Setting', href: '#', icon: FolderIcon, current: false },
 ]
-=======
-  { name: "Dashboard", href: "/dashboard", icon: HomeIcon, current: true },
-  { name: "User Management", href: "/user", icon: UsersIcon, current: false },
-  { name: "Brand", href: "/brand", icon: FolderIcon, current: false },
-  { name: "Category", href: "/store", icon: CalendarIcon, current: false },
-  { name: "Product", href: "/product", icon: InboxIcon, current: false },
-  { name: "Order", href: "/order", icon: ChartBarIcon, current: false },
-  { name: "Report", href: "/report", icon: HomeIcon, current: false },
-  { name: "Groups", href: "/company", icon: UsersIcon, current: false },
-  { name: "Settings", href: "/settings", icon: FolderIcon, current: false },
-];
->>>>>>> Stashed changes
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
