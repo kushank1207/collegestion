@@ -31,14 +31,14 @@ func AddCustomer(c *gin.Context) {
 	if err := c.BindJSON(&customer); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		fmt.Println(err)
-		return
+		//
 	}
 
 	validationErr := validate.Struct(customer)
 	if validationErr != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": validationErr.Error()})
 		fmt.Println(validationErr)
-		return
+		//
 	}
 	customer.Cust_ID = primitive.NewObjectID()
 	fmt.Println(ctx)
@@ -48,7 +48,7 @@ func AddCustomer(c *gin.Context) {
 		msg := "customer item was not created"
 		c.JSON(http.StatusInternalServerError, gin.H{"error": msg})
 		fmt.Println(insertErr)
-		return
+		//
 	}
 	defer cancel()
 
@@ -68,7 +68,7 @@ func DeleteCustomer(c *gin.Context) {
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		fmt.Println(err)
-		return
+		//
 	}
 
 	defer cancel()
@@ -90,14 +90,14 @@ func UpdateCustomer(c *gin.Context) {
 	if err := c.BindJSON(&customer); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		fmt.Println(err)
-		return
+		//
 	}
 
 	validationErr := validate.Struct(customer)
 	if validationErr != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": validationErr.Error()})
 		fmt.Println(validationErr)
-		return
+		//
 	}
 
 	result, err := customerCollection.ReplaceOne(
@@ -115,7 +115,7 @@ func UpdateCustomer(c *gin.Context) {
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		fmt.Println(err)
-		return
+		//
 	}
 
 	defer cancel()
@@ -135,13 +135,11 @@ func GetCustomers(c *gin.Context) {
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		fmt.Println(err)
-		return
 	}
 
 	if err = cursor.All(ctx, &customer); err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		fmt.Println(err)
-		return
 	}
 
 	defer cancel()
@@ -162,14 +160,14 @@ func AddProduct(c *gin.Context) {
 	if err := c.BindJSON(&product); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		fmt.Println(err)
-		return
+		//
 	}
 
 	validationErr := validate.Struct(product)
 	if validationErr != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": validationErr.Error()})
 		fmt.Println(validationErr)
-		return
+		//
 	}
 	product.Prod_ID = primitive.NewObjectID()
 	fmt.Println(ctx)
@@ -179,7 +177,7 @@ func AddProduct(c *gin.Context) {
 		msg := "customer item was not created"
 		c.JSON(http.StatusInternalServerError, gin.H{"error": msg})
 		fmt.Println(insertErr)
-		return
+		//
 	}
 	defer cancel()
 
@@ -199,14 +197,14 @@ func UpdateProduct(c *gin.Context) {
 	if err := c.BindJSON(&product); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		fmt.Println(err)
-		return
+
 	}
 
 	validationErr := validate.Struct(product)
 	if validationErr != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": validationErr.Error()})
 		fmt.Println(validationErr)
-		return
+
 	}
 
 	result, err := productCollection.ReplaceOne(
@@ -221,7 +219,7 @@ func UpdateProduct(c *gin.Context) {
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		fmt.Println(err)
-		return
+
 	}
 
 	defer cancel()
@@ -242,7 +240,7 @@ func DeleteProduct(c *gin.Context) {
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		fmt.Println(err)
-		return
+
 	}
 
 	defer cancel()
@@ -263,13 +261,13 @@ func GetProducts(c *gin.Context) {
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		fmt.Println(err)
-		return
+
 	}
 
 	if err = cursor.All(ctx, &product); err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		fmt.Println(err)
-		return
+
 	}
 
 	defer cancel()
