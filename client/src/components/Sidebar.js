@@ -1,5 +1,6 @@
 import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
+import { getAuth, signOut } from "firebase/auth";
 import {
   CalendarIcon,
   HomeIcon,
@@ -28,6 +29,7 @@ function classNames(...classes) {
 }
 
 export default function Product() {
+  const auth = getAuth();
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
