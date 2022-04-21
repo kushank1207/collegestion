@@ -1,8 +1,6 @@
 # Collegestion 
 
-~ An effective managing system 
-
---------
+An effective managing system 
 --------
 
 ![image](https://user-images.githubusercontent.com/43453205/160801161-77202711-3dca-4b12-ad73-0a776a6b1788.png)
