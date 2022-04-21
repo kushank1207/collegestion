@@ -62,7 +62,8 @@ This API takes in the signup details of the users, stores them in the database, 
 
 URL: http://localhost:5000/customers
 Sample request Body and Response:
-![image-20220420223157529](/Users/kushank/Library/Application Support/typora-user-images/image-20220420223157529.png)
+![image](https://user-images.githubusercontent.com/63755171/164360736-7ec34380-2887-48f9-9079-80476006f88d.png)
+
 
 ### API 2: Fetching all products for a business
 
@@ -72,8 +73,7 @@ This API takes in the tracking ID of a user and returns back the user details.
 URL: http://localhost:8080/products
 Sample request Body and Response:
 
-![image-20220420223112651](/Users/kushank/Library/Application Support/typora-user-images/image-20220420223112651.png)
-
+![image](https://user-images.githubusercontent.com/63755171/164360768-adb7b776-f406-4f75-ae8c-4ce13b7f6145.png)
 
 
 ### API 3: Create new customer
@@ -84,7 +84,8 @@ This API helps in creating a new customer from client.
 URL: http://localhost:5000/customer/create
 Sample request Body and Response:
 
-![image-20220420223034495](/Users/kushank/Library/Application Support/typora-user-images/image-20220420223034495.png)
+![image](https://user-images.githubusercontent.com/63755171/164360821-db9f459c-9025-414e-ad61-f09ee8dddc34.png)
+
 
 ### API 4: Create new product
 
@@ -94,7 +95,8 @@ This API helps in adding new product to the existing business from client.
 URL: http://localhost:5000/product/create
 Sample request Body and Response:
 
-![image-20220420222957601](/Users/kushank/Library/Application Support/typora-user-images/image-20220420222957601.png)
+![image](https://user-images.githubusercontent.com/63755171/164360864-3d085823-35e3-4096-9488-a71e694b6ae7.png)
+
 
 ### API 5: Updating information of existing customer
 
@@ -104,7 +106,8 @@ This API updates the information of the customer.
 URL: http://localhost:5000/customer/update/61fde03595ed79aa95e0cc45
 Sample request Body and Response:
 
-![image-20220420222914486](/Users/kushank/Library/Application Support/typora-user-images/image-20220420222914486.png)
+![image](https://user-images.githubusercontent.com/63755171/164360898-949a3fee-3f9d-4be1-9fe8-20ba1001415a.png)
+
 
 ### API 6: Updating information of existing product
 
@@ -114,7 +117,8 @@ This API updates the information of the product.
 URL: http://localhost:5000/product/update/61fdcdc6ddd3c75733a0b35b
 Sample request Body and Response:
 
-![image-20220420222807111](/Users/kushank/Library/Application Support/typora-user-images/image-20220420222807111.png)
+![image](https://user-images.githubusercontent.com/63755171/164360943-7ae22beb-35d9-44f9-a83d-2454a313063b.png)
+
 
 ### API 7: Delete existing customer 
 
@@ -124,7 +128,8 @@ This API deletes the existing customer.
 URL: http://localhost:5000/customer/delete/61fde03595ed79aa95e0cc45
 Sample request Body and Response:
 
-![image-20220420223426351](/Users/kushank/Library/Application Support/typora-user-images/image-20220420223426351.png)
+![image](https://user-images.githubusercontent.com/63755171/164360992-14d5adbd-7e49-4eb7-834d-ce700f37c98b.png)
+
 
 ### API 8: Delete existing product 
 
@@ -134,7 +139,8 @@ This API deletes the existing product.
 URL: http://localhost:5000/product/delete/61fdcdc6ddd3c75733a0b35b
 Sample request Body and Response:
 
-![image-20220420223526827](/Users/kushank/Library/Application Support/typora-user-images/image-20220420223526827.png)
+![image](https://user-images.githubusercontent.com/63755171/164361024-d7b3f160-4eb9-4780-88f2-6328540110db.png)
+
 
 # 🚀Technology Used
 
@@ -142,6 +148,7 @@ Sample request Body and Response:
 * Golang
 * MongoDB
 * TailwindUI
+* Firebase
 
 # 🚀User Story Mapping
 ![20220204_225127](https://user-images.githubusercontent.com/43453205/152628375-e2d91300-0590-42d4-b191-273c69e23655.jpg)
